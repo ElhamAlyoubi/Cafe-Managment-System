@@ -75,6 +75,7 @@
             this.SubTotallabel = new System.Windows.Forms.Label();
             this.Totallabel = new System.Windows.Forms.Label();
             this.BillgroupBox = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.CostDrinkstextBox = new System.Windows.Forms.TextBox();
             this.CostCakestextBox = new System.Windows.Forms.TextBox();
             this.ServiceChargetextBox = new System.Windows.Forms.TextBox();
@@ -82,7 +83,8 @@
             this.SubTotaltextBox = new System.Windows.Forms.TextBox();
             this.TotaltextBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.drinkgroupBox.SuspendLayout();
             this.CakesgroupBox.SuspendLayout();
             this.BillgroupBox.SuspendLayout();
@@ -121,6 +123,7 @@
             // 
             // textBox8
             // 
+            this.textBox8.BackColor = System.Drawing.Color.Gainsboro;
             this.textBox8.Location = new System.Drawing.Point(264, 234);
             this.textBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox8.Name = "textBox8";
@@ -131,6 +134,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.BackColor = System.Drawing.Color.Gainsboro;
             this.textBox7.Location = new System.Drawing.Point(264, 205);
             this.textBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox7.Name = "textBox7";
@@ -141,6 +145,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.BackColor = System.Drawing.Color.Gainsboro;
             this.textBox6.Location = new System.Drawing.Point(264, 176);
             this.textBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox6.Name = "textBox6";
@@ -151,6 +156,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.Color.Gainsboro;
             this.textBox5.Location = new System.Drawing.Point(264, 147);
             this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox5.Name = "textBox5";
@@ -161,7 +167,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.textBox4.BackColor = System.Drawing.Color.Gainsboro;
             this.textBox4.Location = new System.Drawing.Point(264, 118);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
@@ -172,6 +178,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.Gainsboro;
             this.textBox3.Location = new System.Drawing.Point(264, 89);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Name = "textBox3";
@@ -182,6 +189,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
             this.textBox2.Location = new System.Drawing.Point(264, 61);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
@@ -192,6 +200,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.Gainsboro;
             this.textBox1.Location = new System.Drawing.Point(264, 31);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
@@ -353,6 +362,7 @@
             // 
             // txtCake8
             // 
+            this.txtCake8.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCake8.Location = new System.Drawing.Point(264, 234);
             this.txtCake8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCake8.Name = "txtCake8";
@@ -363,6 +373,7 @@
             // 
             // txtCake7
             // 
+            this.txtCake7.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCake7.Location = new System.Drawing.Point(264, 205);
             this.txtCake7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCake7.Name = "txtCake7";
@@ -373,6 +384,7 @@
             // 
             // txtCake6
             // 
+            this.txtCake6.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCake6.Location = new System.Drawing.Point(264, 176);
             this.txtCake6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCake6.Name = "txtCake6";
@@ -383,6 +395,7 @@
             // 
             // txtCake5
             // 
+            this.txtCake5.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCake5.Location = new System.Drawing.Point(264, 147);
             this.txtCake5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCake5.Name = "txtCake5";
@@ -417,7 +430,7 @@
             // 
             // txtCake4
             // 
-            this.txtCake4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtCake4.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCake4.Location = new System.Drawing.Point(264, 118);
             this.txtCake4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCake4.Name = "txtCake4";
@@ -428,6 +441,7 @@
             // 
             // txtCake3
             // 
+            this.txtCake3.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCake3.Location = new System.Drawing.Point(264, 89);
             this.txtCake3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCake3.Name = "txtCake3";
@@ -438,6 +452,7 @@
             // 
             // txtCake2
             // 
+            this.txtCake2.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCake2.Location = new System.Drawing.Point(264, 61);
             this.txtCake2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCake2.Name = "txtCake2";
@@ -448,6 +463,7 @@
             // 
             // txtCake1
             // 
+            this.txtCake1.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCake1.Location = new System.Drawing.Point(264, 31);
             this.txtCake1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCake1.Name = "txtCake1";
@@ -632,57 +648,6 @@
             this.BillgroupBox.TabStop = false;
             this.BillgroupBox.Text = "Bill :";
             // 
-            // CostDrinkstextBox
-            // 
-            this.CostDrinkstextBox.Location = new System.Drawing.Point(720, 567);
-            this.CostDrinkstextBox.Name = "CostDrinkstextBox";
-            this.CostDrinkstextBox.Size = new System.Drawing.Size(130, 27);
-            this.CostDrinkstextBox.TabIndex = 14;
-            // 
-            // CostCakestextBox
-            // 
-            this.CostCakestextBox.Location = new System.Drawing.Point(720, 612);
-            this.CostCakestextBox.Name = "CostCakestextBox";
-            this.CostCakestextBox.Size = new System.Drawing.Size(130, 27);
-            this.CostCakestextBox.TabIndex = 15;
-            // 
-            // ServiceChargetextBox
-            // 
-            this.ServiceChargetextBox.Location = new System.Drawing.Point(720, 657);
-            this.ServiceChargetextBox.Name = "ServiceChargetextBox";
-            this.ServiceChargetextBox.Size = new System.Drawing.Size(130, 27);
-            this.ServiceChargetextBox.TabIndex = 16;
-            // 
-            // TaxtextBox
-            // 
-            this.TaxtextBox.Location = new System.Drawing.Point(1003, 571);
-            this.TaxtextBox.Name = "TaxtextBox";
-            this.TaxtextBox.Size = new System.Drawing.Size(111, 27);
-            this.TaxtextBox.TabIndex = 17;
-            // 
-            // SubTotaltextBox
-            // 
-            this.SubTotaltextBox.Location = new System.Drawing.Point(1003, 612);
-            this.SubTotaltextBox.Name = "SubTotaltextBox";
-            this.SubTotaltextBox.Size = new System.Drawing.Size(111, 27);
-            this.SubTotaltextBox.TabIndex = 18;
-            // 
-            // TotaltextBox
-            // 
-            this.TotaltextBox.Location = new System.Drawing.Point(1003, 660);
-            this.TotaltextBox.Name = "TotaltextBox";
-            this.TotaltextBox.Size = new System.Drawing.Size(111, 27);
-            this.TotaltextBox.TabIndex = 19;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(506, 242);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(244, 248);
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.SystemColors.Menu;
@@ -691,13 +656,93 @@
             this.label2.Size = new System.Drawing.Size(320, 358);
             this.label2.TabIndex = 0;
             // 
+            // CostDrinkstextBox
+            // 
+            this.CostDrinkstextBox.BackColor = System.Drawing.Color.Gainsboro;
+            this.CostDrinkstextBox.Location = new System.Drawing.Point(720, 567);
+            this.CostDrinkstextBox.Name = "CostDrinkstextBox";
+            this.CostDrinkstextBox.Size = new System.Drawing.Size(130, 27);
+            this.CostDrinkstextBox.TabIndex = 14;
+            // 
+            // CostCakestextBox
+            // 
+            this.CostCakestextBox.BackColor = System.Drawing.Color.Gainsboro;
+            this.CostCakestextBox.Location = new System.Drawing.Point(720, 612);
+            this.CostCakestextBox.Name = "CostCakestextBox";
+            this.CostCakestextBox.Size = new System.Drawing.Size(130, 27);
+            this.CostCakestextBox.TabIndex = 15;
+            // 
+            // ServiceChargetextBox
+            // 
+            this.ServiceChargetextBox.BackColor = System.Drawing.Color.Gainsboro;
+            this.ServiceChargetextBox.Location = new System.Drawing.Point(720, 657);
+            this.ServiceChargetextBox.Name = "ServiceChargetextBox";
+            this.ServiceChargetextBox.Size = new System.Drawing.Size(130, 27);
+            this.ServiceChargetextBox.TabIndex = 16;
+            // 
+            // TaxtextBox
+            // 
+            this.TaxtextBox.BackColor = System.Drawing.Color.Gainsboro;
+            this.TaxtextBox.Location = new System.Drawing.Point(1003, 571);
+            this.TaxtextBox.Name = "TaxtextBox";
+            this.TaxtextBox.Size = new System.Drawing.Size(111, 27);
+            this.TaxtextBox.TabIndex = 17;
+            // 
+            // SubTotaltextBox
+            // 
+            this.SubTotaltextBox.BackColor = System.Drawing.Color.Gainsboro;
+            this.SubTotaltextBox.Location = new System.Drawing.Point(1003, 612);
+            this.SubTotaltextBox.Name = "SubTotaltextBox";
+            this.SubTotaltextBox.Size = new System.Drawing.Size(111, 27);
+            this.SubTotaltextBox.TabIndex = 18;
+            // 
+            // TotaltextBox
+            // 
+            this.TotaltextBox.BackColor = System.Drawing.Color.Gainsboro;
+            this.TotaltextBox.Location = new System.Drawing.Point(1003, 660);
+            this.TotaltextBox.Name = "TotaltextBox";
+            this.TotaltextBox.Size = new System.Drawing.Size(111, 27);
+            this.TotaltextBox.TabIndex = 19;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(461, 191);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(347, 319);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(553, 278);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 19);
+            this.label3.TabIndex = 20;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.GrayText;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(611, 328);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(0, 39);
+            this.label4.TabIndex = 21;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackColor = System.Drawing.SystemColors.MenuBar;
             this.ClientSize = new System.Drawing.Size(1179, 726);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.TotaltextBox);
             this.Controls.Add(this.SubTotaltextBox);
             this.Controls.Add(this.TaxtextBox);
@@ -722,6 +767,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.TransparencyKey = System.Drawing.Color.Transparent;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.drinkgroupBox.ResumeLayout(false);
             this.drinkgroupBox.PerformLayout();
             this.CakesgroupBox.ResumeLayout(false);
@@ -789,6 +835,8 @@
         private System.Windows.Forms.TextBox SubTotaltextBox;
         private System.Windows.Forms.TextBox TotaltextBox;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
