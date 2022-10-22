@@ -124,6 +124,7 @@
             // textBox8
             // 
             this.textBox8.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox8.Enabled = false;
             this.textBox8.Location = new System.Drawing.Point(264, 234);
             this.textBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox8.Name = "textBox8";
@@ -135,6 +136,7 @@
             // textBox7
             // 
             this.textBox7.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox7.Enabled = false;
             this.textBox7.Location = new System.Drawing.Point(264, 205);
             this.textBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox7.Name = "textBox7";
@@ -146,6 +148,7 @@
             // textBox6
             // 
             this.textBox6.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox6.Enabled = false;
             this.textBox6.Location = new System.Drawing.Point(264, 176);
             this.textBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox6.Name = "textBox6";
@@ -157,6 +160,7 @@
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox5.Enabled = false;
             this.textBox5.Location = new System.Drawing.Point(264, 147);
             this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox5.Name = "textBox5";
@@ -168,6 +172,7 @@
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox4.Enabled = false;
             this.textBox4.Location = new System.Drawing.Point(264, 118);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
@@ -180,6 +185,7 @@
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(264, 89);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Name = "textBox3";
@@ -192,6 +198,7 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(264, 61);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
@@ -203,6 +210,7 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(264, 31);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";

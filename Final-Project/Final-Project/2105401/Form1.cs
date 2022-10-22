@@ -160,7 +160,7 @@ namespace _2105401
             double Cake6_Cost = 19;
             double Cake7_Cost = 23;
             double Cake8_Cost = 23;
-            // TO Drinks
+            //  Drinks
             double deink1 = double.Parse(textBox1.Text);
             double deink2 = double.Parse(textBox2.Text);
             double deink3 = double.Parse(textBox3.Text);
@@ -183,6 +183,7 @@ namespace _2105401
                 (Cake4_Cost * Cake4) + (Cake5_Cost * Cake5) + (Cake6_Cost * Cake6) +
                 (Cake7_Cost * Cake7) + (Cake8_Cost * Cake8);
             CostCakestextBox.Text = "ر.س" + CostOfCakes.ToString();
+
             double cost = ((deink1 * drink1Cost) +
                            (deink2 * drink2Cost) +
                            (deink3 * drink3Cost) +
