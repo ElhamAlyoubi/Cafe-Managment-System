@@ -28,7 +28,7 @@ namespace _2105401
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -194,6 +194,23 @@ namespace _2105401
                            (deink8 * drink8Cost));
                     CostDrinkstextBox.Text= "ر.س"+cost.ToString() ;
 
+            Double ServiceCharge = 5.50;
+            ServiceChargetextBox.Text = "ر.س" + ServiceCharge.ToString();
+
+            Double Tax = 10.5;
+            TaxtextBox.Text = "ر.س" + Tax.ToString();
+
+            
+            
+            Double SubTotal1 = cost + CostOfCakes + ServiceCharge;
+            SubTotaltextBox.Text = "ر.س" + SubTotal1.ToString();
+
+            Double Total = cost + CostOfCakes + Tax + ServiceCharge ;
+            
+            TotaltextBox.Text = "ر.س" + Total.ToString();
+
+                
+
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -275,6 +292,11 @@ namespace _2105401
                 textBox8.Clear();
                 textBox8.Enabled = true;
             }
+        }
+
+        private void btnreset_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
