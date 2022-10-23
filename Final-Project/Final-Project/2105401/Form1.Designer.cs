@@ -75,7 +75,6 @@
             this.SubTotallabel = new System.Windows.Forms.Label();
             this.Totallabel = new System.Windows.Forms.Label();
             this.BillgroupBox = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.CostDrinkstextBox = new System.Windows.Forms.TextBox();
             this.CostCakestextBox = new System.Windows.Forms.TextBox();
             this.ServiceChargetextBox = new System.Windows.Forms.TextBox();
@@ -85,6 +84,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.BilllistBox = new System.Windows.Forms.ListBox();
             this.drinkgroupBox.SuspendLayout();
             this.CakesgroupBox.SuspendLayout();
             this.BillgroupBox.SuspendLayout();
@@ -610,6 +610,7 @@
             this.btnReceipt.TabIndex = 4;
             this.btnReceipt.Text = "Receipt";
             this.btnReceipt.UseVisualStyleBackColor = false;
+            this.btnReceipt.Click += new System.EventHandler(this.btnReceipt_Click);
             // 
             // label1
             // 
@@ -683,7 +684,8 @@
             // 
             // BillgroupBox
             // 
-            this.BillgroupBox.Controls.Add(this.label2);
+            this.BillgroupBox.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.BillgroupBox.Controls.Add(this.BilllistBox);
             this.BillgroupBox.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BillgroupBox.Location = new System.Drawing.Point(814, 91);
             this.BillgroupBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -693,15 +695,6 @@
             this.BillgroupBox.TabIndex = 13;
             this.BillgroupBox.TabStop = false;
             this.BillgroupBox.Text = "Bill :";
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.SystemColors.Menu;
-            this.label2.Location = new System.Drawing.Point(17, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(320, 357);
-            this.label2.TabIndex = 0;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // CostDrinkstextBox
             // 
@@ -787,6 +780,16 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 39);
             this.label4.TabIndex = 21;
+            // 
+            // BilllistBox
+            // 
+            this.BilllistBox.BackColor = System.Drawing.Color.Snow;
+            this.BilllistBox.FormattingEnabled = true;
+            this.BilllistBox.ItemHeight = 22;
+            this.BilllistBox.Location = new System.Drawing.Point(6, 29);
+            this.BilllistBox.Name = "BilllistBox";
+            this.BilllistBox.Size = new System.Drawing.Size(342, 356);
+            this.BilllistBox.TabIndex = 0;
             // 
             // Form1
             // 
@@ -881,7 +884,6 @@
         private System.Windows.Forms.Label SubTotallabel;
         private System.Windows.Forms.Label Totallabel;
         private System.Windows.Forms.GroupBox BillgroupBox;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox CostDrinkstextBox;
         private System.Windows.Forms.TextBox CostCakestextBox;
         private System.Windows.Forms.TextBox ServiceChargetextBox;
@@ -891,6 +893,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ListBox BilllistBox;
     }
 }
 

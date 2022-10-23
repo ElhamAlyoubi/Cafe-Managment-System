@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace _2105401
 {
@@ -196,7 +197,7 @@ namespace _2105401
                            (deink8 * drink8Cost));
                     CostDrinkstextBox.Text= "ر.س"+cost.ToString() ;
 
-            Double ServiceCharge = 5.50;
+             Double ServiceCharge = 1.75;
             ServiceChargetextBox.Text = "ر.س" + ServiceCharge.ToString();
 
             Double Tax = 10.5;
@@ -212,43 +213,7 @@ namespace _2105401
             TotaltextBox.Text = "ر.س" + Total.ToString();
 
 
-            //Bili
-            //D
-            label2.Text = "**Drinks**";
-          //  label2.Text +="\n" +namedrinks+"         "+textBox1.Text;
-             if(checkBox1.Checked == true)
-            {
-             label2.Text += "\n" + checkBox1.Text + "         " +textBox1.Text;
-            }
-             if (checkBox2.Checked == true)
-            {
-                label2.Text += "\n" + checkBox2.Text + "         " +textBox2.Text;
-            }
-            if (checkBox3.Checked == true)
-            {
-                label2.Text += "\n" + checkBox3.Text + "         " +textBox3.Text;
-            }
-            if (checkBox4.Checked == true)
-            {
-                label2.Text += "\n" + checkBox4.Text + "         " + textBox4.Text;
-            }
-            if (checkBox5.Checked == true)
-            {
-                label2.Text += "\n" + checkBox5.Text + "         " + textBox5.Text;
-            }
-            if (checkBox6.Checked == true)
-            {
-                label2.Text += "\n" + checkBox6.Text + "         " + textBox6.Text;
-            }
-            if (checkBox7.Checked == true)
-            {
-                label2.Text += "\n" + checkBox7.Text + "         " + textBox7.Text;
-            }
-            if (checkBox8.Checked == true)
-            {
-                label2.Text += "\n" + checkBox8.Text + "         " + textBox8.Text;
-            }
-           
+
 
 
 
@@ -345,13 +310,154 @@ namespace _2105401
 
         private void btnreset_Click(object sender, EventArgs e)
         {
+            TaxtextBox.Clear();
+            CostCakestextBox.Clear();
+            CostDrinkstextBox.Clear();
+            SubTotaltextBox.Clear();
+            TotaltextBox.Clear();
             
+            
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+            checkBox5.Checked = false;
+            checkBox6.Checked = false;
+            checkBox7.Checked = false;
+            checkBox8.Checked = false;
+            checkBox9.Checked = false;
+            checkBox10.Checked = false;
+            checkBox11.Checked = false;
+            checkBox12.Checked = false;
+            checkBox13.Checked = false;
+            checkBox14.Checked = false;
+            checkBox15.Checked = false;
+            checkBox16.Checked = false;
+
+            textBox1.Text = "0";
+            textBox1.Enabled = false;
+            textBox2.Text = "0";
+            textBox2.Enabled = false;
+            textBox3.Text = "0";
+            textBox3.Enabled = false;
+            textBox4.Text = "0";
+            textBox4.Enabled = false;
+            textBox5.Text = "0";
+            textBox5.Enabled = false;
+            textBox6.Text = "0";
+            textBox6.Enabled = false;
+            textBox7.Text = "0";
+            textBox7.Enabled = false;
+            textBox8.Text = "0";
+            textBox8.Enabled = false;
+            txtCake1.Text = "0";
+            txtCake1.Enabled = false;
+            txtCake2.Text = "0";
+            txtCake2.Enabled = false;
+            txtCake3.Text = "0";
+            txtCake3.Enabled = false;
+            txtCake4.Text = "0";
+            txtCake4.Enabled = false;
+            txtCake5.Text = "0";
+            txtCake5.Enabled = false;
+            txtCake6.Text = "0";
+            txtCake6.Enabled = false;
+            txtCake7.Text = "0";
+            txtCake7.Enabled = false;
+            txtCake8.Text = "0";
+            txtCake8.Enabled = false;
+
+
+
+
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
           
 
+        }
+
+        private void btnReceipt_Click(object sender, EventArgs e)
+        {
+
+            //Bili
+            //D
+            
+            BilllistBox.Text= "** Drinks **";
+            //  label2.Text +="\n" +namedrinks+"         "+textBox1.Text;
+            if (checkBox1.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox1.Text + "         " + textBox1.Text;
+            }
+            if (checkBox2.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox2.Text + "         " + textBox2.Text;
+            }
+            if (checkBox3.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox3.Text + "         " + textBox3.Text;
+            }
+            if (checkBox4.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox4.Text + "         " + textBox4.Text;
+            }
+            if (checkBox5.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox5.Text + "         " + textBox5.Text;
+            }
+            if (checkBox6.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox6.Text + "         " + textBox6.Text;
+            }
+            if (checkBox7.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox7.Text + "         " + textBox7.Text;
+            }
+            if (checkBox8.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox8.Text + "         " + textBox8.Text;
+            }
+            BilllistBox.Text = "** Cakes **";
+
+            if (checkBox9.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox9.Text + "          " + txtCake1.Text;
+            }
+            if (checkBox10.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox10.Text + "          " + txtCake2.Text;
+            }
+            if (checkBox11.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox11.Text + "          " + txtCake3.Text;
+            }
+            if (checkBox12.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox12.Text + "          " + txtCake4.Text;
+            }
+            if (checkBox13.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox13.Text + "          " + txtCake5.Text;
+            }
+            if (checkBox14.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox14.Text + "          " + txtCake6.Text;
+            }
+            if (checkBox15.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox15.Text + "          " + txtCake7.Text;
+            }
+            if (checkBox16.Checked == true)
+            {
+                BilllistBox.Text += "\n" + checkBox16.Text + "          " + txtCake8.Text;
+            }
+            BilllistBox.Text = "---------------------------------------------\n";
+            BilllistBox.Text = "Service Charge             " + ServiceChargetextBox.Text + "ر.س\n";
+            BilllistBox.Text = "Tax              " + TaxtextBox.Text + "ر.س\n";
+            BilllistBox.Text = "Sub Total             " + SubTotaltextBox.Text + "ر.س\n";
+            BilllistBox.Text = "Total Cost             " + TotaltextBox.Text + "ر.س\n";
+            BilllistBox.Text = "---------------------------------------------\n";
         }
     }
 }
