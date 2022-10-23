@@ -462,17 +462,17 @@ namespace _2105401
             {
                 BilllistBox.Items.Add(checkBox16.Text + "         " + txtCake8.Text + "\n");
             }
-            BilllistBox.Items.Add("---------------------------------------------\n");
+            BilllistBox.Items.Add("---------------------------------------------");
            
-            BilllistBox.Items.Add("Service Charge             " + ServiceChargetextBox.Text + "ر.س\n");
+            BilllistBox.Items.Add("Service Charge         " + ServiceChargetextBox.Text );
          
-            BilllistBox.Items.Add("Tax              " + TaxtextBox.Text + "ر.س\n");
+            BilllistBox.Items.Add("Tax                          " + TaxtextBox.Text );
            
-            BilllistBox.Items.Add("Sub Total             " + SubTotaltextBox.Text + "ر.س\n");
+            BilllistBox.Items.Add("Sub Total                " + SubTotaltextBox.Text );
            
-            BilllistBox.Items.Add("Total Cost             " + TotaltextBox.Text + "ر.س\n");
+            BilllistBox.Items.Add("Total Cost               " + TotaltextBox.Text );
            
-            BilllistBox.Items.Add("---------------------------------------------\n");
+            BilllistBox.Items.Add("---------------------------------------------");
            
         }
 

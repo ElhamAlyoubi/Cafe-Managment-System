@@ -823,7 +823,7 @@
             this.Controls.Add(this.drinkgroupBox);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Cafe Managment System";
             this.TransparencyKey = System.Drawing.Color.Transparent;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.drinkgroupBox.ResumeLayout(false);
