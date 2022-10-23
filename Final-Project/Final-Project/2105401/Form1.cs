@@ -16,11 +16,12 @@ namespace _2105401
         {
             InitializeComponent();
         }
-
+       
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox3.Checked == true)
             {
+              
                 textBox3.Clear();
                 textBox3.Enabled = true;
             }
@@ -162,13 +163,14 @@ namespace _2105401
             double Cake8_Cost = 23;
             //  Drinks
             double deink1 = double.Parse(textBox1.Text);
-            double deink2 = double.Parse(textBox2.Text);
-            double deink3 = double.Parse(textBox3.Text);
-            double deink4 = double.Parse(textBox4.Text);
-            double deink5 = double.Parse(textBox5.Text);
-            double deink6 = double.Parse(textBox6.Text);
-            double deink7 = double.Parse(textBox7.Text);
-            double deink8 = double.Parse(textBox8.Text);
+          
+            double deink2 = double.Parse(textBox2.Text); 
+            double deink3 = double.Parse(textBox3.Text); 
+            double deink4 = double.Parse(textBox4.Text); 
+            double deink5 = double.Parse(textBox5.Text); 
+            double deink6 = double.Parse(textBox6.Text); 
+            double deink7 = double.Parse(textBox7.Text); 
+            double deink8 = double.Parse(textBox8.Text); 
 
             double drink1Cost = 10.1;
             double drink2Cost = 10.00;
@@ -209,16 +211,57 @@ namespace _2105401
             
             TotaltextBox.Text = "ر.س" + Total.ToString();
 
-                
+
+            //Bili
+            //D
+            label2.Text = "**Drinks**";
+          //  label2.Text +="\n" +namedrinks+"         "+textBox1.Text;
+             if(checkBox1.Checked == true)
+            {
+             label2.Text += "\n" + checkBox1.Text + "         " +textBox1.Text;
+            }
+             if (checkBox2.Checked == true)
+            {
+                label2.Text += "\n" + checkBox2.Text + "         " +textBox2.Text;
+            }
+            if (checkBox3.Checked == true)
+            {
+                label2.Text += "\n" + checkBox3.Text + "         " +textBox3.Text;
+            }
+            if (checkBox4.Checked == true)
+            {
+                label2.Text += "\n" + checkBox4.Text + "         " + textBox4.Text;
+            }
+            if (checkBox5.Checked == true)
+            {
+                label2.Text += "\n" + checkBox5.Text + "         " + textBox5.Text;
+            }
+            if (checkBox6.Checked == true)
+            {
+                label2.Text += "\n" + checkBox6.Text + "         " + textBox6.Text;
+            }
+            if (checkBox7.Checked == true)
+            {
+                label2.Text += "\n" + checkBox7.Text + "         " + textBox7.Text;
+            }
+            if (checkBox8.Checked == true)
+            {
+                label2.Text += "\n" + checkBox8.Text + "         " + textBox8.Text;
+            }
+           
+
+
+
 
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-
+           
             if (checkBox1.Checked == true)
             {
-                textBox1.Clear();
+               
+               textBox1.Clear();
                 textBox1.Enabled = true;
             }
         }
@@ -233,6 +276,7 @@ namespace _2105401
 
             if (checkBox2.Checked == true)
             {
+               
                 textBox2.Clear();
                 textBox2.Enabled = true;
             }
@@ -243,6 +287,7 @@ namespace _2105401
         {
             if (checkBox4.Checked == true)
             {
+               
                 textBox4.Clear();
                 textBox4.Enabled = true;
             }
@@ -262,6 +307,7 @@ namespace _2105401
         {
             if (checkBox5.Checked == true)
             {
+                
                 textBox5.Clear();
                 textBox5.Enabled = true;
             }
@@ -271,6 +317,7 @@ namespace _2105401
         {
             if (checkBox6.Checked == true)
             {
+               
                 textBox6.Clear();
                 textBox6.Enabled = true;
             }
@@ -280,6 +327,7 @@ namespace _2105401
         {
             if (checkBox7.Checked == true)
             {
+               ;
                 textBox7.Clear();
                 textBox7.Enabled = true;
             }
@@ -289,6 +337,7 @@ namespace _2105401
         {
             if (checkBox8.Checked == true)
             {
+                
                 textBox8.Clear();
                 textBox8.Enabled = true;
             }
@@ -297,6 +346,12 @@ namespace _2105401
         private void btnreset_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+          
+
         }
     }
 }
