@@ -163,8 +163,8 @@ namespace _2105401
             double Cake7_Cost = 23;
             double Cake8_Cost = 23;
             //  Drinks
+            // To user enter value
             double deink1 = double.Parse(textBox1.Text);
-          
             double deink2 = double.Parse(textBox2.Text); 
             double deink3 = double.Parse(textBox3.Text); 
             double deink4 = double.Parse(textBox4.Text); 
@@ -195,7 +195,7 @@ namespace _2105401
                            (deink6 * drink6Cost) +
                            (deink7 * drink7Cost) +
                            (deink8 * drink8Cost));
-                    CostDrinkstextBox.Text= "ر.س"+cost.ToString() ;
+           CostDrinkstextBox.Text= "ر.س"+cost.ToString() ;
 
              Double ServiceCharge = 1.75;
             ServiceChargetextBox.Text = "ر.س" + ServiceCharge.ToString();
@@ -366,6 +366,8 @@ namespace _2105401
             txtCake7.Enabled = false;
             txtCake8.Text = "0";
             txtCake8.Enabled = false;
+            // for clear Bill
+            BilllistBox.Items.Clear();
 
 
 
@@ -382,82 +384,101 @@ namespace _2105401
         {
 
             //Bili
-            //D
-            
-            BilllistBox.Text= "** Drinks **";
-            //  label2.Text +="\n" +namedrinks+"         "+textBox1.Text;
+           
+
+         
+              BilllistBox.Items.Add("** Drinks **\n"); 
+           
             if (checkBox1.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox1.Text + "         " + textBox1.Text;
+                BilllistBox.Items.Add(checkBox1.Text + "         " + textBox1.Text + "\n");
+              
             }
             if (checkBox2.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox2.Text + "         " + textBox2.Text;
+                BilllistBox.Items.Add(checkBox2.Text + "         " + textBox2.Text+"\n");
+              
             }
             if (checkBox3.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox3.Text + "         " + textBox3.Text;
+                BilllistBox.Items.Add(checkBox3.Text + "         " + textBox3.Text + "\n");
+               
             }
             if (checkBox4.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox4.Text + "         " + textBox4.Text;
+                BilllistBox.Items.Add(checkBox4.Text + "         " + textBox4.Text + "\n");
+                
             }
             if (checkBox5.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox5.Text + "         " + textBox5.Text;
+                BilllistBox.Items.Add(checkBox5.Text + "         " + textBox5.Text + "\n");
             }
             if (checkBox6.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox6.Text + "         " + textBox6.Text;
+                BilllistBox.Items.Add(checkBox6.Text + "         " + textBox6.Text + "\n");
             }
             if (checkBox7.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox7.Text + "         " + textBox7.Text;
+                BilllistBox.Items.Add(checkBox7.Text + "         " + textBox7.Text + "\n");
             }
             if (checkBox8.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox8.Text + "         " + textBox8.Text;
+                BilllistBox.Items.Add(checkBox8.Text + "         " + textBox8.Text + "\n");
             }
-            BilllistBox.Text = "** Cakes **";
-
+           
+            BilllistBox.Items.Add("** Cakes **" + "\n");
             if (checkBox9.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox9.Text + "          " + txtCake1.Text;
+                BilllistBox.Items.Add(checkBox9.Text + "         " + txtCake1.Text + "\n");
+
+             
             }
             if (checkBox10.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox10.Text + "          " + txtCake2.Text;
+                BilllistBox.Items.Add(checkBox10.Text + "         " + txtCake2.Text + "\n");
+               
             }
             if (checkBox11.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox11.Text + "          " + txtCake3.Text;
+                BilllistBox.Items.Add(checkBox11.Text + "         " + txtCake3.Text + "\n");
             }
             if (checkBox12.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox12.Text + "          " + txtCake4.Text;
+                BilllistBox.Items.Add(checkBox12.Text + "         " + txtCake4.Text + "\n");
             }
             if (checkBox13.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox13.Text + "          " + txtCake5.Text;
+                BilllistBox.Items.Add(checkBox13.Text + "         " + txtCake5.Text + "\n");
             }
             if (checkBox14.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox14.Text + "          " + txtCake6.Text;
+                BilllistBox.Items.Add(checkBox14.Text + "         " + txtCake6.Text + "\n");
             }
             if (checkBox15.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox15.Text + "          " + txtCake7.Text;
+                BilllistBox.Items.Add(checkBox15.Text + "         " + txtCake7.Text + "\n");
             }
             if (checkBox16.Checked == true)
             {
-                BilllistBox.Text += "\n" + checkBox16.Text + "          " + txtCake8.Text;
+                BilllistBox.Items.Add(checkBox16.Text + "         " + txtCake8.Text + "\n");
             }
-            BilllistBox.Text = "---------------------------------------------\n";
-            BilllistBox.Text = "Service Charge             " + ServiceChargetextBox.Text + "ر.س\n";
-            BilllistBox.Text = "Tax              " + TaxtextBox.Text + "ر.س\n";
-            BilllistBox.Text = "Sub Total             " + SubTotaltextBox.Text + "ر.س\n";
-            BilllistBox.Text = "Total Cost             " + TotaltextBox.Text + "ر.س\n";
-            BilllistBox.Text = "---------------------------------------------\n";
+            BilllistBox.Items.Add("---------------------------------------------\n");
+           
+            BilllistBox.Items.Add("Service Charge             " + ServiceChargetextBox.Text + "ر.س\n");
+         
+            BilllistBox.Items.Add("Tax              " + TaxtextBox.Text + "ر.س\n");
+           
+            BilllistBox.Items.Add("Sub Total             " + SubTotaltextBox.Text + "ر.س\n");
+           
+            BilllistBox.Items.Add("Total Cost             " + TotaltextBox.Text + "ر.س\n");
+           
+            BilllistBox.Items.Add("---------------------------------------------\n");
+           
+        }
+
+        private void BilllistBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -75,6 +75,7 @@
             this.SubTotallabel = new System.Windows.Forms.Label();
             this.Totallabel = new System.Windows.Forms.Label();
             this.BillgroupBox = new System.Windows.Forms.GroupBox();
+            this.BilllistBox = new System.Windows.Forms.ListBox();
             this.CostDrinkstextBox = new System.Windows.Forms.TextBox();
             this.CostCakestextBox = new System.Windows.Forms.TextBox();
             this.ServiceChargetextBox = new System.Windows.Forms.TextBox();
@@ -84,7 +85,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.BilllistBox = new System.Windows.Forms.ListBox();
             this.drinkgroupBox.SuspendLayout();
             this.CakesgroupBox.SuspendLayout();
             this.BillgroupBox.SuspendLayout();
@@ -696,6 +696,17 @@
             this.BillgroupBox.TabStop = false;
             this.BillgroupBox.Text = "Bill :";
             // 
+            // BilllistBox
+            // 
+            this.BilllistBox.BackColor = System.Drawing.Color.Snow;
+            this.BilllistBox.FormattingEnabled = true;
+            this.BilllistBox.ItemHeight = 22;
+            this.BilllistBox.Location = new System.Drawing.Point(6, 29);
+            this.BilllistBox.Name = "BilllistBox";
+            this.BilllistBox.Size = new System.Drawing.Size(342, 356);
+            this.BilllistBox.TabIndex = 0;
+            this.BilllistBox.SelectedIndexChanged += new System.EventHandler(this.BilllistBox_SelectedIndexChanged);
+            // 
             // CostDrinkstextBox
             // 
             this.CostDrinkstextBox.BackColor = System.Drawing.Color.Gainsboro;
@@ -780,16 +791,6 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 39);
             this.label4.TabIndex = 21;
-            // 
-            // BilllistBox
-            // 
-            this.BilllistBox.BackColor = System.Drawing.Color.Snow;
-            this.BilllistBox.FormattingEnabled = true;
-            this.BilllistBox.ItemHeight = 22;
-            this.BilllistBox.Location = new System.Drawing.Point(6, 29);
-            this.BilllistBox.Name = "BilllistBox";
-            this.BilllistBox.Size = new System.Drawing.Size(342, 356);
-            this.BilllistBox.TabIndex = 0;
             // 
             // Form1
             // 
